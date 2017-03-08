@@ -1,0 +1,11 @@
+drop table sandbox.users;
+create table sandbox.users (
+	ID INT NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+	FNAME VARCHAR(25),
+	LNAME VARCHAR(25));
+
+drop table sandbox.employees;	
+create table sandbox.employees (
+	ID INT NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+	FNAME VARCHAR(25),
+	LNAME VARCHAR(25));

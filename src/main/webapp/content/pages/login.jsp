@@ -5,13 +5,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>SandBox Login</title>
 </head>
 <body>
 	<s:actionerror/>
 	<s:form action="login" method="post">
-		Username: <s:textfield name="securityOne" /><br>
-		Password: <s:textfield name="securityTwo" /><br>
+		<s:textfield label="User Name" name="securityOne" /><br>
+		<s:textfield label="Password" name="securityTwo" /><br>
 		<s:submit value="Submit"/>
 	</s:form>
 </body>
